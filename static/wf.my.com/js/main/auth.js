@@ -26,7 +26,7 @@ var oauth = {
 			no_header   : 1,
 
 			signup_subscribe : 1,
-			signup_continue  : 'https://pc.warface.com/dynamic/auth/?confirm_reg=true',
+			signup_continue  : '',
 			signup_repeat    : 0,
 			signup_soc_steam : 1,
 			signup_captcha   : 'recaptcha',
@@ -34,7 +34,7 @@ var oauth = {
 			without_css : 1,
 
 			gc_id : '13.2000076',
-			gc_download_url : 'https://static.gc.my.games/WarfaceMyGamesLoader.exe',
+			gc_download_url : 'https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe',
 			gc_download_heading : 'Warface installation',
 			gc_download_pic_path : 'https://pc.warface.com/static/wf.my.com/img/main/content/download',
 		},
