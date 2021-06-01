@@ -1,0 +1,180 @@
+
+.layout.download .container {
+    width: 100%;
+}
+
+	.layout .container .node {
+		padding: 0px;
+	}
+ 
+	.layout.download aside {
+		display: none;
+	}
+
+section.download_game {
+	height: 628px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/download/bg.jpg) center top no-repeat;
+}
+
+	.download_button {
+		width: 400px;
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		font: normal 31px/40px Quantico, Arial, Helvetica, sans-serif;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		background: var(--item-color);
+		cursor: pointer;
+	}
+
+	.download_button:hover {
+		color: #000;
+		text-decoration: none;
+		background: #fff;
+	}
+
+section.download_data {
+	padding: 20px 32px 60px;
+	background: var(--pad-color);
+}
+
+	.requirements {
+		width: 100%;
+		max-width: 900px;
+		margin: 0px auto;
+		border: 1px solid rgba(140,145,150,0.6);
+		border-collapse: collapse;
+		border-spacing: 0px;
+		background: none;
+	}
+
+		.requirements caption {
+			margin-bottom: 22px;
+			color: #fff;
+			font: normal 16px/30px Quantico, Arial, Helvetica, sans-serif;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		.requirements th,
+		.requirements td {
+			width: 25%;
+			padding: 12px 10px;
+			font-size: 13px;
+			line-height: 18px;
+			text-align: center;
+			border: 1px solid rgba(140,145,150,0.2);
+		}
+
+		.requirements th {
+			font-weight: normal;
+			background: var(--pad-color2);
+		}
+
+		.requirements td:first-child {
+			text-align: left;
+		}
+
+	.download_notice {
+		margin: 30px 0px;
+		font-size: 13px;
+		line-height: 18px;
+		text-align: center;
+	}
+
+		.download_notice span {
+			padding: 8px 0px 8px 48px;
+			background: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/download/attention.png) 0px 0px no-repeat;
+		}
+
+	.download_drivers {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 16px auto;
+		text-align: center;
+	}
+
+		.download_drivers a {
+			text-align: left;
+			}
+
+		.download_drivers .item {
+			width: 155px;
+			height: 48px;
+			display: flex;
+			position: relative;
+			align-items: center;
+			margin: 8px 12px;
+			padding-left: 80px;
+			color: #a9aeb3;
+			line-height: 18px;
+			text-decoration: none;
+		}
+		.download_drivers .item:hover {
+			color: #fff;
+		}
+		.download_drivers .item::before {
+			content: '';
+			width: 66px;
+			height: inherit;
+			display: block;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background: url(https://wf.cdn.gmru.net/static/wf.mail.ru/img/main/content/download/drivers.png) 0px 0px no-repeat;
+		}
+
+		.download_drivers .item.ati::before {
+			background-position-x: 0px;
+		}
+		.download_drivers .item.nvidia::before {
+			background-position-x: -75px;
+		}
+		.download_drivers .item.directx::before {
+			background-position-x: -158px;
+		}
+
+	.news__video {
+		position: relative;
+		padding-bottom: 57.5%;
+		height: 0;
+	}
+	.news__video iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+@media only screen and (max-width: 1000px) {
+
+section.download_game {
+	height: auto;
+	padding: 40px 0px;
+	background-size: 100% auto;
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+
+.download_button {
+	width: 320px;
+	height: 60px;
+	font-size: 23px;
+}
+
+.download_drivers {
+	flex-direction: column;
+}
+
+}
