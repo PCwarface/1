@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('OpenSans-Bold/OpenSans-Bold.eot@') format('embedded-opentype'),  
+  url('OpenSans-Bold/OpenSans-Bold.woff') format('woff'), 
+  url('OpenSans-Bold/OpenSans-Bold.ttf')  format('truetype'), 
+  url('OpenSans-Bold/OpenSans-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('OpenSans-Regular/OpenSans-Regular.eot@') format('embedded-opentype'),  
+  url('OpenSans-Regular/OpenSans-Regular.woff') format('woff'), 
+  url('OpenSans-Regular/OpenSans-Regular.ttf')  format('truetype'), 
+  url('OpenSans-Regular/OpenSans-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
